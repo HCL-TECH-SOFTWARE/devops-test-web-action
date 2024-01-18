@@ -1,0 +1,35 @@
+name: HCL DevOps Test WEBUI
+
+on: workflow_dispatch
+
+jobs:
+    WebUI-Action:
+        runs-on: self-hosted
+        name: HCL DevOps Test WEBUI
+        steps:
+         - name: HCL DevOps Test WEBUI
+           uses: HCL-TECH-SOFTWARE/devops-test-web-action@main
+           with:
+            workspace: 
+            project: 
+            suite: 
+            imshared:
+            configFile: 
+            exportLog: 
+            exportReport: 
+            exportStatReportList: 
+            exportStats: 
+            exportStatsFormat: 
+            exportStatsHtml: 
+            imports:
+            labels: 
+            overwrite: 
+            protocolInput: 
+            publish: 
+            publishFor: 
+            publishReports: 
+            results:
+            swapDatasets: 
+            userComments: 
+            varFile: 
+            vmArgs: 
