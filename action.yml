@@ -33,7 +33,7 @@ inputs:
     required: false
 
   exportStatReportList:
-    description: 'You can use this option to specify a comma-separated list of report IDs along with exportstats or exportstatshtml to list the reports that you want to export in place of the default reports, or the reports selected under Preferences. To retrieve the report IDs, navigate to Window > Preferences > Test > Performance Test Reports > Export Reports from HCL OneTest UI and under Select reports to export, select the required reports, and click Copy ID to clipboard.'
+    description: 'You can use this option to specify a comma-separated list of report IDs along with exportstats or exportstatshtml to list the reports that you want to export in place of the default reports, or the reports selected under Preferences. To retrieve the report IDs, navigate to Window > Preferences > Test > Performance Test Reports > Export Reports from HCL DevOps Test UI and under Select reports to export, select the required reports, and click Copy ID to clipboard.'
     required: false
 
   exportStats:
